@@ -1,0 +1,25 @@
+{
+  "name": "@luxbug/cardano-transaction-parser",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Parse cardano transactions to see summary of assets sent and received by each address",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "exports": "./src/index.js",
+  "scripts": {
+    "build": "tsup",
+    "test": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.5",
+    "tsup": "^8.1.0"
+  },
+  "dependencies": {
+    "@hyperionbt/helios": "^0.16.7"
+  }
+}
