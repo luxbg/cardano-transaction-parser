@@ -1,5 +1,11 @@
 # @luxbug/cardano-transaction-parser
 
+## 0.1.2
+
+### Patch Changes
+
+- 1eafc7a: Test
+
 ## 0.1.1
 
 ### Patch Changes
