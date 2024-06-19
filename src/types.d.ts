@@ -10,7 +10,6 @@ export type ParsedTransaction = {
     earned_assets: Asset[];
     minted_assets: Asset[];
     ada_summary: number;
-    transaction_hash: string;
   };
 };
 
@@ -20,34 +19,7 @@ export type BlockforstWebhookPayload = {
   created: number;
   api_version: number;
   type: string;
-  payload: Array<{
-    tx: {
-      hash: string;
-      block: string;
-      block_height: number;
-      block_time: number;
-      slot: number;
-      index: number;
-      output_amount: Array<{
-        unit: string;
-        quantity: string;
-      }>;
-      fees: string;
-      deposit: string;
-      size: number;
-      invalid_before: any;
-      invalid_hereafter: unknown;
-      utxo_count: number;
-      withdrawal_count: number;
-      mir_cert_count: number;
-      delegation_count: number;
-      stake_cert_count: number;
-      pool_update_count: number;
-      pool_retire_count: number;
-      asset_mint_or_burn_count: number;
-      redeemer_count: number;
-      valid_contract: boolean;
-    };
+  payload: {
     inputs: Array<{
       address: string;
       amount: Array<{
@@ -69,5 +41,5 @@ export type BlockforstWebhookPayload = {
       collateral: boolean;
       data_hash: any;
     }>;
-  }>;
+  };
 };

@@ -7,10 +7,13 @@
   "engines": {
     "node": ">=18"
   },
-  "exports": "./src/index.js",
+  "exports": {
+    "import": "./dist/esm/mjs.js",
+    "require": "./dist/cjs/cjs.cjs"
+  },
   "scripts": {
     "build": "tsup",
-    "test": "tsc"
+    "lint": "tsc"
   },
   "keywords": [],
   "author": "",
