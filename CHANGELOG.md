@@ -1,5 +1,11 @@
 # @luxbug/cardano-transaction-parser
 
+## 0.1.3
+
+### Patch Changes
+
+- 3827dcd: Fix function name in cjs
+
 ## 0.1.2
 
 ### Patch Changes
