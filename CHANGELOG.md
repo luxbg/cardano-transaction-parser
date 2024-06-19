@@ -1,5 +1,11 @@
 # @luxbug/cardano-transaction-parser
 
+## 1.0.0
+
+### Major Changes
+
+- 407d8fe: Stable Release
+
 ## 0.1.3
 
 ### Patch Changes
