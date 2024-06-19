@@ -59,7 +59,7 @@ const initializeStakeAddress = (
 };
 
 // Parses transactions and processes inputs and outputs to aggregate assets and ADA summaries
-export const parseTransactions = async (
+export const parseTransaction = async (
   transaction: BlockforstWebhookPayload["payload"]
 ) => {
   const { inputs, outputs } = transaction;

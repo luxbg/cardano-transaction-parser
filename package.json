@@ -7,10 +7,9 @@
   "engines": {
     "node": ">=18"
   },
-  "exports": {
-    "import": "./dist/esm/mjs.js",
-    "require": "./dist/cjs/cjs.cjs"
-  },
+  "main": "dist/cjs/cjs.cjs",
+  "module": "dist/esm/mjs.js",
+  "types": "dist/esm/mjs.d.ts",
   "scripts": {
     "build": "tsup",
     "lint": "tsc",
