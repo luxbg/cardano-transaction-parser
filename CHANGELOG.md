@@ -1,5 +1,11 @@
 # @luxbug/cardano-transaction-parser
 
+## 1.1.0
+
+### Minor Changes
+
+- 463d7cd: Bypass npm errors
+
 ## 1.0.1
 
 ### Patch Changes
